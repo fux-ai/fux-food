@@ -2,7 +2,7 @@ import { Poppins } from 'next/font/google';
 
 import type { ReactNode } from 'react';
 
-import '@/styles/globals.css';
+import '@/assets/styles/globals.css';
 
 const poppins = Poppins({
 	weight: ['400', '500', '600', '700', '800', '900'],
