@@ -13,5 +13,5 @@ export const Container = ({
 	className,
 	children,
 }: ContainerProps) => (
-	<As className={twMerge('px-4 lg:px-16', className)}>{children}</As>
+	<As className={twMerge('px-4 md:px-16', className)}>{children}</As>
 );

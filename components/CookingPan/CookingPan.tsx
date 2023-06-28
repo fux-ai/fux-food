@@ -19,7 +19,7 @@ export const CookingPan = () => {
 	return (
 		<div
 			ref={ref}
-			className="relative -top-28 mx-auto h-96 w-full overflow-hidden lg:hidden"
+			className="relative -top-28 mx-auto h-96 w-full overflow-hidden md:hidden"
 		>
 			<div className={styles.bubble} />
 			<div className={styles.bubble} />

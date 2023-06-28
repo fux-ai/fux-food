@@ -14,7 +14,7 @@ const socials = [
 
 export const SocialList = () => (
 	<>
-		<ul className="mt-4 hidden grid-cols-2 gap-y-4 lg:grid">
+		<ul className="mt-4 hidden grid-cols-2 gap-y-4 md:grid">
 			{socials.map(({ name, href, icon: Icon }) => (
 				<li key={name}>
 					<a
@@ -27,7 +27,7 @@ export const SocialList = () => (
 				</li>
 			))}
 		</ul>
-		<ul className="flex justify-around lg:hidden">
+		<ul className="flex justify-around md:hidden">
 			{socials.map(({ name, href, icon: Icon }) => (
 				<li key={name}>
 					<a
