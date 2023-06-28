@@ -3,8 +3,6 @@
 	border-radius: 100%;
 	box-shadow: 0 0 0.25vh #000;
 	opacity: 0;
-	animation-play-state: paused;
-	animation-delay: calc(var(--scroll) * -1s);
 }
 
 .bubble:nth-child(1) {
@@ -14,6 +12,8 @@
 	height: 2.5vh;
 	background-color: #000;
 	animation: bubble 2s cubic-bezier(0.53, 0.16, 0.39, 0.96) infinite;
+	animation-play-state: paused;
+	animation-delay: calc(var(--scroll) * -1s);
 }
 
 .bubble:nth-child(2) {
@@ -23,6 +23,8 @@
 	height: 2vh;
 	background-color: #000;
 	animation: bubble 2s ease-in-out 0.35s infinite;
+	animation-play-state: paused;
+	animation-delay: calc(var(--scroll) * -1s);
 }
 
 .bubble:nth-child(3) {
@@ -32,6 +34,8 @@
 	height: 1.5vh;
 	background-color: #000;
 	animation: bubble 1.5s cubic-bezier(0.53, 0.16, 0.39, 0.96) 0.55s infinite;
+	animation-play-state: paused;
+	animation-delay: calc(var(--scroll) * -1s);
 }
 
 .bubble:nth-child(4) {
@@ -41,6 +45,8 @@
 	height: 1.2vh;
 	background-color: #000;
 	animation: bubble 1.8s cubic-bezier(0.53, 0.16, 0.39, 0.96) 0.9s infinite;
+	animation-play-state: paused;
+	animation-delay: calc(var(--scroll) * -1s);
 }
 
 .bubble:nth-child(5) {
@@ -50,6 +56,8 @@
 	height: 1.1vh;
 	background-color: #000;
 	animation: bubble 1.6s ease-in-out 1s infinite;
+	animation-play-state: paused;
+	animation-delay: calc(var(--scroll) * -1s);
 }
 
 .area {
