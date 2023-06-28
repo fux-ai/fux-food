@@ -3,6 +3,7 @@ import Logo from '@/assets/svg/logo.svg';
 
 import { Container } from './Container';
 import { Button } from './Button';
+import { CookingPan } from './CookingPan/CookingPan';
 
 export const Hero = () => (
 	<Container
@@ -24,6 +25,7 @@ export const Hero = () => (
 			</hgroup>
 			<Button fullRadius>Learn more</Button>
 		</div>
+		<CookingPan />
 		<RoundedSide className="absolute -bottom-0.5 z-10 h-fit w-full lg:hidden" />
 		<Logo className="absolute left-1/2 top-full z-20 -translate-x-1/2 -translate-y-1/2 drop-shadow-md" />
 	</Container>
