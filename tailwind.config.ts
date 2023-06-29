@@ -17,6 +17,12 @@ export default {
 			},
 			colors: {
 				primary: '#09aa0f',
+				green: {
+					light: '#e7f4e4',
+				},
+				blue: {
+					light: '#bbdeda',
+				},
 			},
 		},
 	},
