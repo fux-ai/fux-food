@@ -1,5 +1,7 @@
 import { Poppins } from 'next/font/google';
 
+import { Footer } from '@/components/main/Footer/Footer';
+
 import type { ReactNode } from 'react';
 
 import '@/assets/styles/globals.css';
@@ -23,7 +25,10 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en" className={poppins.variable}>
-			<body className="bg-[#f9fff6]">{children}</body>
+			<body className="bg-[#f9fff6]">
+				<main>{children}</main>
+				<Footer />
+			</body>
 		</html>
 	);
 }
