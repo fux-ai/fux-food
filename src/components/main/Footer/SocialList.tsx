@@ -4,7 +4,7 @@ import {
 	BiLogoLinkedinSquare,
 	BiLogoTwitter,
 } from 'react-icons/bi';
-import { twMerge } from 'tailwind-merge';
+import { twJoin } from 'tailwind-merge';
 
 const socials = [
 	{ name: 'Facebook', href: '#', icon: BiLogoFacebookCircle },
@@ -23,7 +23,7 @@ export const SocialList = () => (
 					<a
 						href={href}
 						target="_blank"
-						className={twMerge(LINK_STYLES, 'text-lg')}
+						className={twJoin(LINK_STYLES, 'text-lg')}
 					>
 						<Icon className="text-xl" /> {name}
 					</a>
@@ -37,7 +37,7 @@ export const SocialList = () => (
 						href={href}
 						aria-label={name}
 						target="_blank"
-						className={twMerge(LINK_STYLES, 'text-3xl')}
+						className={twJoin(LINK_STYLES, 'text-3xl')}
 					>
 						<Icon />
 					</a>
