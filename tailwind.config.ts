@@ -12,8 +12,8 @@ export default {
 			xl: '1439px',
 		},
 		extend: {
-			fontFamily: {
-				sans: ['var(--font-poppins)', ...defaultTheme.fontFamily.sans],
+			backgroundImage: {
+				phone: "url('/phone.png')",
 			},
 			colors: {
 				primary: '#09aa0f',
@@ -23,6 +23,9 @@ export default {
 				blue: {
 					light: '#bbdeda',
 				},
+			},
+			fontFamily: {
+				sans: ['var(--font-poppins)', ...defaultTheme.fontFamily.sans],
 			},
 		},
 	},

@@ -1,4 +1,4 @@
-import { twMerge } from 'tailwind-merge';
+import { twJoin } from 'tailwind-merge';
 
 import type { ReactNode } from 'react';
 
@@ -13,5 +13,5 @@ export const Container = ({
 	className,
 	children,
 }: ContainerProps) => (
-	<As className={twMerge('px-4 md:px-16', className)}>{children}</As>
+	<As className={twJoin('px-4 md:px-16', className)}>{children}</As>
 );
