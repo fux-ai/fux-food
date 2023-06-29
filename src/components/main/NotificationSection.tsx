@@ -1,7 +1,7 @@
 import Link from 'next/link';
-
-import { Container } from './Container';
 import { AiOutlineArrowRight } from 'react-icons/ai';
+
+import { Container } from '../ui/Container/Container';
 
 export const NotificationSection = () => (
 	<Container as="section" className="py-16">

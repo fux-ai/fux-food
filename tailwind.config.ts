@@ -1,8 +1,9 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
+import defaultTheme from 'tailwindcss/defaultTheme';
 
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-	content: ['./components/**/*.{ts,tsx}', './app/**/*.{ts,tsx}'],
+import type { Config } from 'tailwindcss';
+
+export default {
+	content: ['./src/**/*.{ts,tsx}'],
 	theme: {
 		screens: {
 			sm: '600px',
@@ -20,4 +21,4 @@ module.exports = {
 		},
 	},
 	plugins: [],
-};
+} satisfies Config;

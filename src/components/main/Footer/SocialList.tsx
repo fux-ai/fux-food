@@ -1,8 +1,8 @@
 import {
 	BiLogoFacebookCircle,
-	BiLogoTwitter,
 	BiLogoInstagramAlt,
 	BiLogoLinkedinSquare,
+	BiLogoTwitter,
 } from 'react-icons/bi';
 
 const socials = [

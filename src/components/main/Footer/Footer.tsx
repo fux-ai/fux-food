@@ -1,6 +1,7 @@
-import { Container } from '../Container';
 import { NewsletterForm } from './NewsletterForm';
 import { SocialList } from './SocialList';
+
+import { Container } from '@/components/ui/Container/Container';
 
 const SECTION_STYLES = 'py-10 md:px-16';
 

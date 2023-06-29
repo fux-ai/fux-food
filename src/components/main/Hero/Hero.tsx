@@ -1,9 +1,9 @@
-import RoundedSide from '@/assets/svg/rounded_side.svg';
-import Logo from '@/assets/svg/logo.svg';
-
-import { Container } from './Container';
-import { Button } from './Button';
 import { CookingPan } from './CookingPan/CookingPan';
+
+import Logo from '@/assets/svg/logo.svg';
+import RoundedSide from '@/assets/svg/rounded_side.svg';
+import { Button } from '@/components/ui/Button/Button';
+import { Container } from '@/components/ui/Container/Container';
 
 export const Hero = () => (
 	<Container
