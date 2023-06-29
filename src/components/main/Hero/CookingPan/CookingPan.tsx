@@ -2,9 +2,9 @@
 
 import { useRef } from 'react';
 
-import { useWindowEvent } from '@/hooks/useWindowEvent';
-
 import styles from './CookingPan.module.css';
+
+import { useWindowEvent } from '@/hooks/useWindowEvent';
 
 export const CookingPan = () => {
 	const ref = useRef<HTMLDivElement | null>(null);

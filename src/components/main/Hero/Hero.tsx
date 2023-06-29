@@ -1,14 +1,14 @@
-import RoundedSide from '@/assets/svg/rounded_side.svg';
-import Logo from '@/assets/svg/logo.svg';
-
-import { Container } from './Container';
-import { Button } from './Button';
 import { CookingPan } from './CookingPan/CookingPan';
+
+import Logo from '@/assets/svg/logo.svg';
+import RoundedSide from '@/assets/svg/rounded_side.svg';
+import { Button } from '@/components/ui/Button/Button';
+import { Container } from '@/components/ui/Container/Container';
 
 export const Hero = () => (
 	<Container
 		as="header"
-		className="relative flex h-[780px] flex-col items-center gap-10 bg-gradient-to-r from-[#e7f4e4] to-[#bbdeda] pt-16 after:absolute after:bottom-0 after:h-[448px] after:w-[350px] after:bg-[url('/phone.png')] after:bg-fixed after:bg-[top_332px_center] after:bg-no-repeat md:h-[530px] md:flex-row md:justify-between md:pt-0 md:after:right-16 md:after:bg-[top_82px_right_4rem]"
+		className="relative flex h-[780px] flex-col items-center gap-10 bg-gradient-to-r from-green-light to-blue-light pt-16 after:absolute after:bottom-0 after:h-[448px] after:w-[350px] after:bg-phone after:bg-fixed after:bg-[top_332px_center] after:bg-no-repeat md:h-[530px] md:flex-row md:justify-between md:pt-0 md:after:right-16 md:after:bg-[top_82px_right_4rem]"
 	>
 		<div className="flex w-full max-w-xs flex-col items-center md:max-w-sm md:items-start">
 			<h2 className="text-xl font-semibold text-primary md:text-left">
