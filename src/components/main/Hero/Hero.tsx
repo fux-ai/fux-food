@@ -1,7 +1,7 @@
 import { CookingPan } from './CookingPan/CookingPan';
 
 import Logo from '@/assets/svg/logo.svg';
-import RoundedSide from '@/assets/svg/rounded_side.svg';
+import RoundedSide from '@/assets/svg/rounded-side.svg';
 import { Button } from '@/components/ui/Button/Button';
 import { Container } from '@/components/ui/Container/Container';
 
@@ -26,7 +26,7 @@ export const Hero = () => (
 			<Button fullRadius>Learn more</Button>
 		</div>
 		<CookingPan />
-		<RoundedSide className="absolute -bottom-0.5 z-10 h-fit w-full md:hidden" />
+		<RoundedSide className="absolute bottom-0 z-10 w-full md:hidden" />
 		<Logo className="absolute left-1/2 top-full z-20 -translate-x-1/2 -translate-y-1/2 drop-shadow-md" />
 	</Container>
 );
