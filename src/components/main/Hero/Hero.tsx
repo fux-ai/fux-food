@@ -12,7 +12,7 @@ export const Hero = () => (
 	>
 		<div className="flex w-full max-w-xs flex-col items-center md:max-w-sm md:items-start">
 			<h2 className="text-xl font-semibold text-primary md:text-left">
-				Spar Fuchs
+				Fux Food
 			</h2>
 			<hgroup className="mb-4 mt-0.5 space-y-4 text-center md:text-start">
 				<h1 className="text-3xl font-bold md:text-5xl md:font-semibold">
