@@ -5,6 +5,9 @@ import type { Meta, StoryObj } from '@storybook/react';
 const meta = {
 	title: 'Input',
 	component: Input,
+	args: {
+		placeholder: 'Example input',
+	},
 } satisfies Meta<typeof Input>;
 
 export default meta;
@@ -15,12 +18,12 @@ export const Default: Story = {};
 
 export const Placeholder: Story = {
 	args: {
-		placeholder: 'Example input',
+		placeholder: 'Example placeholder',
 	},
 };
 
-export const Fill: Story = {
+export const Error: Story = {
 	args: {
-		fill: true,
+		error: 'Example error!',
 	},
 };
