@@ -1,4 +1,4 @@
-import { NewsletterForm } from './NewsletterForm';
+import { NewsletterForm } from './NewsletterForm/NewsletterForm';
 import { SocialList } from './SocialList';
 
 import { Container } from '@/components/ui/Container/Container';
