@@ -13,7 +13,7 @@ const socials = [
 	{ name: 'Linkedin', href: '#', icon: BiLogoLinkedinSquare },
 ];
 
-const LINK_STYLES = 'flex items-center gap-x-2 text-lg text-zinc-600';
+const LINK_STYLES = 'flex items-center gap-x-2 text-zinc-600';
 
 export const SocialList = () => (
 	<>
@@ -37,7 +37,7 @@ export const SocialList = () => (
 						href={href}
 						aria-label={name}
 						target="_blank"
-						className={twJoin(LINK_STYLES, 'text-3xl')}
+						className={twJoin(LINK_STYLES, 'text-2xl')}
 					>
 						<Icon />
 					</a>
