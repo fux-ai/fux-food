@@ -27,6 +27,6 @@ export const Hero = () => (
 		</div>
 		<CookingPan />
 		<RoundedSide className="absolute bottom-0 z-10 w-full md:hidden" />
-		<Logo className="absolute left-1/2 top-full z-20 -translate-x-1/2 -translate-y-1/2 drop-shadow-md" />
+		<Logo className="absolute -bottom-[22px] left-1/2 z-20 w-36 -translate-x-1/2 drop-shadow-md" />
 	</Container>
 );
